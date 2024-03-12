@@ -17,7 +17,11 @@ repositories {
 dependencies {
     compileOnly("javax.servlet:javax.servlet-api:3.1.0")
 
-    testImplementation(platform("org.junit:junit-bom:5.9.1"))
+    implementation("org.mybatis:mybatis:3.5.3")
+    implementation("mysql:mysql-connector-java:8.0.19")
+    implementation("ch.qos.logback:logback-classic:1.2.3") // 日誌
+
+    testImplementation("junit:junit:4.12") // 單元測試
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
 
