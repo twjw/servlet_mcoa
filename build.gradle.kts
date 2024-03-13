@@ -22,9 +22,4 @@ dependencies {
     implementation("ch.qos.logback:logback-classic:1.2.3") // 日誌
 
     testImplementation("junit:junit:4.12") // 單元測試
-    testImplementation("org.junit.jupiter:junit-jupiter")
-}
-
-tasks.test {
-    useJUnitPlatform()
 }
