@@ -20,6 +20,7 @@ dependencies {
     implementation("org.mybatis:mybatis:3.5.3")
     implementation("mysql:mysql-connector-java:8.0.19")
     implementation("ch.qos.logback:logback-classic:1.2.3") // 日誌
+    implementation("com.alibaba:druid:1.1.14") // druid 數據庫連接池
 
     testImplementation("junit:junit:4.12") // 單元測試
 }
