@@ -24,3 +24,8 @@ dependencies {
 
     testImplementation("junit:junit:4.12") // 單元測試
 }
+
+tasks.withType<JavaCompile> {
+    // 配置這個處理 idea log 亂碼問題
+    options.encoding = "UTF-8"
+}

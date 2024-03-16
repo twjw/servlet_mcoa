@@ -9,3 +9,6 @@ servlet 3.1
 
 mvc 架構:  
 html 視圖層(view) -> servlet 控制層(controller) -> service 業務邏輯層(model) -> mapper 數據持久層(model)
+
+
+view 就懶得寫了嘿嘿
